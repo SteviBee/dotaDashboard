@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    ul(class="nav-bar")
+      li 
+        a(href='/') Home
+      li 
+        a(href='/about') About
+      li 
+        a(href='/users') Users
+      li 
+        a(href='/catalog') Catalog
+    div
+      h1 Simple Website Layout 
+          
+      h2 #{title}
+        
+      block content

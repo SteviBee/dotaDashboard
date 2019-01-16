@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  p Welcome to #{title}
+  p You are so cool!
+  p I just did the following :
+  ol
+    li Created a "user.js" route that rendered "user.pug" and plugged in some variables.
+    li Created "users.pug" view and added content (extending layout).
+    li Repeated for Home, About, and Catalog pages
+    li Here is a link to a cool page:
+      br
+      br
+      a(href="/users/cool") Cool page
+    
